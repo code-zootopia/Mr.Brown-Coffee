@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style/reset.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/product.css" />
+
+    <title>product3</title>
+  </head>
+  <body>
+    <div class="bg">
+      <!-- 容器留左右間距 -->
+      <div class="container">
+        <nav style="--bs-breadcrumb-divider: '<'" aria-label="breadcrumb">
+          <ol class="breadcrumb ms-3 pt-4">
+            <li class="breadcrumb-item active" aria-current="page"></li>
+            <li class="breadcrumb-item"><a href="#">商品資訊</a></li>
+            <li class="breadcrumb-item"><a href="#">飲品介紹</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              滴濾式咖啡
+            </li>
+          </ol>
+        </nav>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="product">
+              <div class="d-md-flex text-center">
+                <img
+                  src="./images/blue_mountain_coffee.jpg"
+                  alt="極品藍山咖啡"
+                  class="img-fluid mb-3 col-8 col-md-6"
+                />
+                <!-- 照片滿版 margin-bottom3 -->
+                <!-- 1到5表示margin或padding的大小，基本大小可能是 16 像素。 -->
+
+                <div class="col-12 col-md-6 align-items-center mt-5">
+                  <div style="color: #58151c">
+                    <p class="item-name" style="font-weight: bold">
+                      手沖極品藍山
+                    </p>
+                    <p class="item-name-sub">Blue Mountain Coffee</p>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div
+                      class="rounded d-flex justify-content-between col-4 p-2 mb-4 size"
+                    >
+                      <p class="m-0">小杯</p>
+                      <p class="m-0">$200</p>
+                    </div>
+                  </div>
+                  <div style="color: #495057">
+                    <p class="origin">牙買加 萊斯德爾 藍山</p>
+
+                    <!-- border-dark(顏色)、pb(padding-bottom) -->
+                    <p class="border-bottom border-dark pb-2 origin">
+                      Jamaica Clydesdale 100% Blue Mountain
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p class="col-8 mx-auto origin2 mt-4" style="color: 000000">
+                牙買加藍山咖啡，生長於藍山山脈地區而得其名，是世界上公認的極品咖啡之一。全世界真正的100%純牙買加藍山咖啡，是指產於牙買加東部藍山山脈，經牙買加政府界定範圍内所生產的咖啡，此區域具有獨特和優良的咖啡生產條件，肥沃的火山土壤，充沛的熱帶量和終年濃罩的晨曦。牙買加藍山咖啡，散發優雅的咖啡香氣，口感豐富、細緻，質地乾淨、溫和，酸甜苦味平衡融合，
+              </p>
+            </div>
+            <div>
+              <div class="related-products col-4 col-md-3 mx-auto text-center">
+                <p>其他相關產品...</p>
+              </div>
+              <div
+                id="carouselExampleControls"
+                class="carousel slide "
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./images/blue_mountain_coffee.jpg"
+                      class="d-block w-50 mx-auto mt-3"
+                      alt="手沖極品藍山"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/coffee_of_the_day.jpg"
+                      class="d-block w-50 mx-auto mt-3"
+                      alt="每日咖啡"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/Iced_specialty_coffee.jpg"
+                      class="d-block w-50 mx-auto mt-3"
+                      alt="冰嚴選咖啡"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./images/specialty_coffee.jpg"
+                      class="d-block w-50 mx-auto mt-3"
+                      alt="嚴選咖啡"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="./style/js/popper.min.js"></script>
+    <script src="./style/js/bootstrap.min.js"></script>
+  </body>
+</html>

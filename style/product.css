@@ -1,0 +1,174 @@
+/* 麵包屑背景透明 */
+.breadcrumb {
+  background-color: transparent;
+  
+}
+
+.breadcrumb-item a {
+  color: #212529;
+  text-decoration: none;
+}
+.breadcrumb-item.active {
+  color: #b02a37;
+}
+.preview-item {
+  color: #58151c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.75rem; /* 75% */
+  letter-spacing: 0.03125rem;
+}
+
+.preview-item-sub {
+  color: #495057;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.75rem;
+  letter-spacing: 0.03125rem;
+}
+.custom-btn {
+  background-color: #b02a37;
+  color: #f8f9fa;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  color: #fff;
+  width: 15rem;
+}
+
+.custom-btn p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 125% */
+  letter-spacing: 0.24rem;
+}
+
+.product img,
+.carousel-inner img {
+  border-radius: 20px;
+  border: 15px solid #f8f9fa;
+}
+.bg {
+  background-image: url(../images/bg-300x300.png);
+  background-repeat: repeat;
+  background-color: #fffcf4;
+  background-size: 50%;
+  /* height: 100vh; */
+  /* height: auto; */
+  width: 100vw;
+}
+.related-products {
+  color: #58151c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 160% */
+  letter-spacing: 0.125rem;
+  margin-top: 3rem;
+}
+.related-products::after {
+  content: "";
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 1rem; /* 調整底邊的粗細 */
+  background-color: hsla(45, 100%, 81%, 1); /* 設置底邊的顏色 */
+  margin-top: -1.8rem; /* 调整底邊與內容的距离 */
+}
+/* 修改輪播圖按鈕顏色 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #ff0000 !important;
+}
+/* 調整字體 */
+.item-name {
+  color: #58151c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem; /* 90% */
+  letter-spacing: 0.03125rem;
+}
+.item-name-sub {
+  color: #58151c;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+  letter-spacing: 0.03125rem;
+}
+.size {
+  color: #58151c;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 120% */
+  letter-spacing: 0.03125rem;
+  background-color: #f8d7da;
+  border-radius: 20px;
+}
+.origin {
+  color: #495057;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.03125rem;
+}
+.origin2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.03125rem;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100px;
+}
+.carousel-control-prev {
+  left: -2rem;
+}
+.carousel-control-next {
+  right: -2rem;
+}
+
+@media (576px <= width) {
+  .border-dark {
+    border-color: transparent !important;
+  }
+
+  .item-name {
+    font-size: 2rem;
+  }
+  .preview-item {
+    font-size: 1.2rem;
+    line-height: 0.9rem; /* 75% */
+    letter-spacing: 0.0375rem;
+  }
+
+  .preview-item-sub {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.0375rem;
+  }
+}
